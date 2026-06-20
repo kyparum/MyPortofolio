@@ -1,0 +1,14 @@
+/**
+ * Custom @font-face declarations go here.
+ *
+ * This file is intentionally empty for now and is imported by `index.css`
+ * before Tailwind/theme styles, so any custom font added here is available
+ * project-wide. Example:
+ *
+ * @font-face {
+ *   font-family: 'MyFont';
+ *   src: url('/fonts/my-font.woff2') format('woff2');
+ *   font-weight: 400;
+ *   font-display: swap;
+ * }
+ */
