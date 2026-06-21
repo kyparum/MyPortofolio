@@ -89,7 +89,7 @@ export function AboutMe({ darkMode }: AboutMeProps) {
     {
       level: "Kindergarten",
       institution: "TK Aisyiyah 20",
-      year: "2018 - 2010",
+      year: "2008 - 2010",
       description:
         "Pendidikan dasar yang memberikan fondasi akademik yang kuat. Sejak dini sudah menunjukkan ketertarikan pada komputer dan teknologi melalui kegiatan pembelajaran berbasis digital.",
       logo: "https://i.imgur.com/Orxobqz.png",
@@ -99,33 +99,34 @@ export function AboutMe({ darkMode }: AboutMeProps) {
 
   const careerData: CareerItem[] = [
     {
-      position: "UI/UX Designer",
-      company: "Creative Studio Indonesia",
-      period: "2024 - Sekarang",
+      position: "Worker",
+      company: "Jokilabs",
+      period: "Jun 2025 - Present",
       description: [
-        "Bertanggung jawab dalam merancang user interface dan user experience untuk berbagai aplikasi web dan mobile",
-        "Berkolaborasi dengan tim developer untuk memastikan implementasi desain yang optimal",
-        "Menggunakan tools seperti Figma, Adobe XD, dan Sketch untuk membuat wireframe, prototype, dan design system",
-        "Melakukan user research dan usability testing untuk meningkatkan kualitas produk"
-      ],
-      logo: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=100&h=100&fit=crop",
-      status: "Full Time",
-      location: "Jakarta",
-    },
-    {
-      position: "Graphic Designer Intern",
-      company: "Digital Marketing Agency",
-      period: "2023 - 2024",
-      description: [
-        "Membantu tim kreatif dalam membuat konten visual untuk media sosial, website, dan kampanye digital",
-        "Belajar tentang design thinking, branding, dan visual communication",
-        "Mengerjakan berbagai project mulai dari social media graphics, infographics, hingga banner advertisements",
-        "Berkolaborasi dengan tim marketing untuk menciptakan konten yang engaging"
+        "Completed questionnaire orders based on customer requests and specifications",
+        "Structured and managed respondent data using Microsoft Excel prior to form submission",
+        "Ensured data validity and reliability across every order",
+        "Consistently delivered tasks on time in accordance with deadlines"
       ],
       logo: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=100&h=100&fit=crop",
-      status: "Intern",
-      location: "Jakarta",
+      status: "Frelance",
+      location: "Surakarta",
     },
+    {
+      position: "Worker",
+      company: "Jokilabs",
+      period: "Jun 2025 - Present",
+      description: [
+        "Completed questionnaire orders based on customer requests and specifications",
+        "Structured and managed respondent data using Microsoft Excel prior to form submission",
+        "Ensured data validity and reliability across every order",
+        "Consistently delivered tasks on time in accordance with deadlines"
+      ],
+      logo: "https://i.imgur.com/ZVRsO0a.png",
+      status: "Freelane",
+      location: "Surakarta",
+    },
+    /*
     {
       position: "Freelance Web Designer",
       company: "Self-Employed",
@@ -139,7 +140,7 @@ export function AboutMe({ darkMode }: AboutMeProps) {
       logo: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=100&h=100&fit=crop",
       status: "Freelance",
       location: "Jakarta",
-    },
+    },*/
   ];
 
   const renderSkillRating = (level: number) => {
