@@ -23,28 +23,28 @@ const socialMedia = [
   },
   {
     name: "GitHub",
-    iconUrl: "https://i.imgur.com/placeholder-github.png", // ganti Imgur
+    iconUrl: "https://i.imgur.com/fhktnRm.png", // ganti Imgur
     url: "https://github.com/kyparum",
     handle: "@kyparum",
     bgColor: "#181717",
   },
   {
     name: "X",
-    iconUrl: "https://i.imgur.com/placeholder-x.png", // ganti Imgur
+    iconUrl: "https://i.imgur.com/YfP0lD4.png", // ganti Imgur
     url: "https://x.com/kyparum",
     handle: "@kyparum",
     bgColor: "#000000",
   },
   {
     name: "Threads",
-    iconUrl: "https://i.imgur.com/placeholder-threads.png", // ganti Imgur
+    iconUrl: "https://i.imgur.com/GWT8oHx.png", // ganti Imgur
     url: "https://www.threads.net/@kyparum",
     handle: "@kyparum",
     bgColor: "#000000",
   },
   {
     name: "Facebook",
-    iconUrl: "https://i.imgur.com/placeholder-facebook.png", // ganti Imgur
+    iconUrl: "https://i.imgur.com/T7jiaXo.png", // ganti Imgur
     url: "https://www.facebook.com/okky.puspa.3/",
     handle: "Okky Puspa Ningrum",
     bgColor: "#1877F2",
