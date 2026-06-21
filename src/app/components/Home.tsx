@@ -48,6 +48,9 @@ const CopilotIconLocal = 'https://i.imgur.com/UNiJYHM.png';
 const NotionIconLocal  = 'https://i.imgur.com/0yO1RCM.png';
 const NotebooklmIconLocal = 'https://i.imgur.com/yHD7zVj.png';
 const VSCodeIconLocal = 'https://i.imgur.com/BMQSFNW.png';
+const GitHubIconLocal = 'https://i.imgur.com/SqFbJU8.png';
+const LovableIconLocal = 'https://i.imgur.com/JbZDMvw.png'; 
+const FigmaMakeIconLocal = 'https://i.imgur.com/InaMkOh.png';
 const htmlIconLocal    = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
 const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
 const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
@@ -119,9 +122,10 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'Docker', Icon: FaDocker, color: '#2496ED' },
     { name: 'VS Code', Icon: VSCodeIconLocal, color: '#007ACC', isImage: true },
     { name: 'Terminal', Icon: Terminal, color: '#000000' },
-    { name: 'GitHub', Icon: FaGithub, color: '#181717' },
+    { name: 'GitHub', Icon: GitHubIconLocal, color: '#181717', isImage: true },
     { name: 'Vercel', Icon: SiVercel, color: '#000000' },
-    { name: 'Lovable', Icon: Brain, color: '#FF6B9D' },
+    { name: 'Lovable', Icon: LovableIconLocal, color: '#FF6B9D', isImage: true },
+    { name: 'Figma Make', Icon: FigmaMakeIconLocal, color: '#F24E1E', isImage: true },
 
     // Frontend Development
     { name: 'HTML', Icon: htmlIconLocal, color: '#E34F26', isImage: true },
