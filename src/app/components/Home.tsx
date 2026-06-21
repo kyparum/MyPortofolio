@@ -35,15 +35,19 @@ import {
 } from 'react-icons/si';
 
 // Skill icon URLs — ganti dengan link Imgur kamu
+const FigmaIconLocal   = 'https://i.imgur.com/DWkSZ8G.png';
+const CanvaIconLocal = 'https://i.imgur.com/1M4DZAb.png'; // ganti dengan Imgur
+const BalsamiqIconLocal = 'https://i.imgur.com/ChkfHdM.png'; // ganti dengan Imgur
+const DrawioIconLocal = 'https://i.imgur.com/JxJDf4B.png'; // ganti dengan Imgur
+const EdgeIconLocal    = 'https://i.imgur.com/4fc09MM.png';    // ganti dengan Imgur
+const ChromeIconLocal  = 'https://i.imgur.com/ersn8rm.png';  // ganti dengan Imgur
 const htmlIconLocal    = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
 const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
-const EdgeIconLocal    = 'https://i.imgur.com/placeholder-edge.png';    // ganti dengan Imgur
-const ChromeIconLocal  = 'https://i.imgur.com/placeholder-chrome.png';  // ganti dengan Imgur
-const FigmaIconLocal   = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg';
 const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
 const SheetIconLocal = 'https://i.imgur.com/cW4TGvw.png';
 const BookTextIconLocal = 'https://i.imgur.com/Col6mBG.png';
 const BrainIconLocal = 'https://i.imgur.com/X7GxUYs.png'; // ganti dengan Imgur
+
 
 
 interface HomeProps {
@@ -82,12 +86,12 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
 
   const allTools = [
     // Design & Prototyping
-    { name: 'Canva', Icon: SiCanva, color: '#00C4CC' },
+    { name: 'Canva', Icon: CanvaIconLocal, color: '#00C4CC', isImage: true },
     { name: 'Figma', Icon: FigmaIconLocal, color: '#F24E1E', isImage: true },
-    { name: 'Balsamiq', Icon: Cloud, color: '#CC0000' },
-    { name: 'Draw.io', Icon: SiDiagramsdotnet, color: '#F08705' },
-    { name: 'Framer', Icon: SiFramer, color: '#0055FF' },
-    { name: 'Wireframe', Icon: GitBranch, color: '#6B7280' },
+    { name: 'Balsamiq', Icon: BalsamiqIconLocal, color: '#CC0000', isImage: true },
+    { name: 'Draw.io', Icon: DrawioIconLocal, color: '#F08705', isImage: true },
+    /*{ name: 'Framer', Icon: SiFramer, color: '#0055FF' },
+    { name: 'Wireframe', Icon: GitBranch, color: '#6B7280' },*/
 
     // Browsers & Communication
     { name: 'Chrome', Icon: ChromeIconLocal, color: '#4285F4', isImage: true },
