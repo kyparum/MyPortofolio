@@ -51,6 +51,10 @@ const VSCodeIconLocal = 'https://i.imgur.com/BMQSFNW.png';
 const GitHubIconLocal = 'https://i.imgur.com/SqFbJU8.png';
 const LovableIconLocal = 'https://i.imgur.com/JbZDMvw.png'; 
 const FigmaMakeIconLocal = 'https://i.imgur.com/InaMkOh.png';
+const TraeIconLocal = 'https://i.imgur.com/UsYY8Ml.png';
+const VercelIconLocal = 'https://i.imgur.com/ylMS2Cx.png';
+const DiscordIconLocal = 'https://i.imgur.com/cypHzzr.png';
+const TelegramIconLocal = 'https://i.imgur.com/lFdojUQ.png';
 const htmlIconLocal    = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
 const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
 const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
@@ -106,7 +110,8 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     // Browsers & Communication
     { name: 'Chrome', Icon: ChromeIconLocal, color: '#4285F4', isImage: true },
     { name: 'Edge', Icon: EdgeIconLocal, color: '#0078D7', isImage: true },
-    { name: 'Discord', Icon: FaDiscord, color: '#5865F2' },
+    { name: 'Discord', Icon: DiscordIconLocal, color: '#5865F2', isImage: true },
+    { name: 'Telegram', Icon: TelegramIconLocal, color: '#0088CC', isImage: true },
 
     // AI Tools
     { name: 'Claude', Icon: ClaudeIconLocal, color: '#D97757', isImage: true },
@@ -123,9 +128,10 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'VS Code', Icon: VSCodeIconLocal, color: '#007ACC', isImage: true },
     { name: 'Terminal', Icon: Terminal, color: '#000000' },
     { name: 'GitHub', Icon: GitHubIconLocal, color: '#181717', isImage: true },
-    { name: 'Vercel', Icon: SiVercel, color: '#000000' },
+    { name: 'Vercel', Icon: VercelIconLocal, color: '#000000', isImage: true },
     { name: 'Lovable', Icon: LovableIconLocal, color: '#FF6B9D', isImage: true },
     { name: 'Figma Make', Icon: FigmaMakeIconLocal, color: '#F24E1E', isImage: true },
+    { name: 'Trae', Icon: TraeIconLocal, color: '#FF6B9D', isImage: true },
 
     // Frontend Development
     { name: 'HTML', Icon: htmlIconLocal, color: '#E34F26', isImage: true },
