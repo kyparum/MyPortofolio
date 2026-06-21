@@ -99,18 +99,19 @@ export function AboutMe({ darkMode }: AboutMeProps) {
 
   const careerData: CareerItem[] = [
     {
-      position: "Worker",
-      company: "Jokilabs",
-      period: "Jun 2025 - Present",
+      position: "AI Engineer Cohort",
+      company: "Coding Camp powered by DBS Foundation",
+      period: "Feb 2026 - Present",
       description: [
-        "Completed questionnaire orders based on customer requests and specifications",
-        "Structured and managed respondent data using Microsoft Excel prior to form submission",
-        "Ensured data validity and reliability across every order",
-        "Consistently delivered tasks on time in accordance with deadlines"
+        "Completed all modules in the AI learning path from start to finish",
+        "Maintained a consistent 'Ahead of Schedule' status throughout the entire program",
+        "Developed a sentiment analysis model for the tourism sector in collaboration with a crosspath team",
+        "Handled end-to-end model development including training, evaluation, inference, and model saving in TensorFlow format",
+        "Actively collaborated across disciplines to deliver a data-driven solution"
       ],
-      logo: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=100&h=100&fit=crop",
-      status: "Frelance",
-      location: "Surakarta",
+      logo: "https://i.imgur.com/18UoJxT.png",
+      status: "Internship ",
+      location: "Remote • Bandung, West Java, Indonesia ",
     },
     {
       position: "Worker",
@@ -122,9 +123,9 @@ export function AboutMe({ darkMode }: AboutMeProps) {
         "Ensured data validity and reliability across every order",
         "Consistently delivered tasks on time in accordance with deadlines"
       ],
-      logo: "https://i.imgur.com/ZVRsO0a.png",
-      status: "Freelane",
-      location: "Surakarta",
+      logo: "https://i.imgur.com/a2Md4eg.png",
+      status: "Freelance",
+      location: "Remote • Surakarta",
     },
     /*
     {
