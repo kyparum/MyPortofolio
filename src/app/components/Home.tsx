@@ -36,11 +36,18 @@ import {
 
 // Skill icon URLs — ganti dengan link Imgur kamu
 const FigmaIconLocal   = 'https://i.imgur.com/DWkSZ8G.png';
-const CanvaIconLocal = 'https://i.imgur.com/1M4DZAb.png'; // ganti dengan Imgur
-const BalsamiqIconLocal = 'https://i.imgur.com/ChkfHdM.png'; // ganti dengan Imgur
-const DrawioIconLocal = 'https://i.imgur.com/JxJDf4B.png'; // ganti dengan Imgur
-const EdgeIconLocal    = 'https://i.imgur.com/4fc09MM.png';    // ganti dengan Imgur
-const ChromeIconLocal  = 'https://i.imgur.com/ersn8rm.png';  // ganti dengan Imgur
+const CanvaIconLocal = 'https://i.imgur.com/1M4DZAb.png'; 
+const BalsamiqIconLocal = 'https://i.imgur.com/ChkfHdM.png'; 
+const DrawioIconLocal = 'https://i.imgur.com/JxJDf4B.png'; 
+const EdgeIconLocal    = 'https://i.imgur.com/4fc09MM.png';   
+const ChromeIconLocal  = 'https://i.imgur.com/ersn8rm.png';  
+const ClaudeIconLocal  = 'https://i.imgur.com/r9crkie.png';
+const GeminiIconLocal  = 'https://i.imgur.com/vrITVqV.png'; 
+const GPTIconLocal     = 'https://i.imgur.com/kZpfFkV.png';
+const CopilotIconLocal = 'https://i.imgur.com/UNiJYHM.png';
+const NotionIconLocal  = 'https://i.imgur.com/0yO1RCM.png';
+const NotebooklmIconLocal = 'https://i.imgur.com/yHD7zVj.png';
+const VSCodeIconLocal = 'https://i.imgur.com/BMQSFNW.png';
 const htmlIconLocal    = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
 const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
 const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
@@ -99,15 +106,18 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'Discord', Icon: FaDiscord, color: '#5865F2' },
 
     // AI Tools
-    { name: 'Claude', Icon: Bot, color: '#D97757' },
-    { name: 'GPT', Icon: BrainIconLocal, color: '#10A37F',isImage: true },
-    { name: 'Gemini', Icon: Sparkles, color: '#8E75F2' },
-    { name: 'Quilbot', Icon: Pen, color: '#4B5563' },
+    { name: 'Claude', Icon: ClaudeIconLocal, color: '#D97757', isImage: true },
+    { name: 'GPT', Icon: GPTIconLocal, color: '#10A37F', isImage: true },
+    { name: 'Gemini', Icon: GeminiIconLocal, color: '#8E75F2', isImage: true },
+    { name: 'Copilot', Icon: CopilotIconLocal, color: '#000000', isImage: true },
+    { name: 'NotebookLM', Icon: NotebooklmIconLocal, color: '#F9AB00', isImage: true },
+    { name: 'Notion', Icon: NotionIconLocal, color: '#000000', isImage: true },
+    /*{ name: 'Quilbot', Icon: Pen, color: '#4B5563' },*/
 
     // Development Tools
     { name: 'Anaconda', Icon: SiAnaconda, color: '#44A833' },
     { name: 'Docker', Icon: FaDocker, color: '#2496ED' },
-    { name: 'VS Code', Icon: Code, color: '#007ACC' },
+    { name: 'VS Code', Icon: VSCodeIconLocal, color: '#007ACC', isImage: true },
     { name: 'Terminal', Icon: Terminal, color: '#000000' },
     { name: 'GitHub', Icon: FaGithub, color: '#181717' },
     { name: 'Vercel', Icon: SiVercel, color: '#000000' },
