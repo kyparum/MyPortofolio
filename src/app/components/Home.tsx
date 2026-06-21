@@ -258,7 +258,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
                 darkMode ? 'bg-pink-400 shadow-[0_0_10px_rgba(236,72,153,0.6)]' : 'bg-pink-600'
               }`}
             />
-            <p className={`text-base sm:text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Based in Surakarta, ID 📍</p>
+            <p className={`text-base sm:text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Based in Sukoharjo, ID 📍</p>
           </div>
         </motion.div>
 
