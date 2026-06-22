@@ -55,7 +55,18 @@ const TraeIconLocal = 'https://i.imgur.com/UsYY8Ml.png';
 const VercelIconLocal = 'https://i.imgur.com/ylMS2Cx.png';
 const DiscordIconLocal = 'https://i.imgur.com/cypHzzr.png';
 const TelegramIconLocal = 'https://i.imgur.com/lFdojUQ.png';
-const htmlIconLocal    = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
+const htmlIconLocal    = 'https://i.imgur.com/UIaadwQ.png';
+const CSSIconLocal     = 'https://i.imgur.com/w2VaB44.png';
+const JSIconLocal      = 'https://i.imgur.com/l8O9AeW.png';
+const PHPIconLocal     = 'https://i.imgur.com/LokKMna.png';
+const PythonIconLocal  = 'https://i.imgur.com/ssIpJhm.png';
+const JavaIconLocal    = 'https://i.imgur.com/aqhF8gj.png';
+const ReactIconLocal   = 'https://i.imgur.com/hqokSIi.png';
+const ViteIconLocal    = 'https://i.imgur.com/E9VHrz3.png';
+const XAMPPIconLocal   = 'https://i.imgur.com/cxIDP7k.png';
+const SupabaseIconLocal = 'https://i.imgur.com/ET85oS1.png';
+const PostgreSQLIconLocal = 'https://i.imgur.com/0KJ17Cf.png';
+const PHPMyAdminIconLocal = 'https://i.imgur.com/ZQ5GR95.png';
 const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
 const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
 const SheetIconLocal = 'https://i.imgur.com/cW4TGvw.png';
@@ -126,7 +137,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'Anaconda', Icon: SiAnaconda, color: '#44A833' },
     { name: 'Docker', Icon: FaDocker, color: '#2496ED' },
     { name: 'VS Code', Icon: VSCodeIconLocal, color: '#007ACC', isImage: true },
-    { name: 'Terminal', Icon: Terminal, color: '#000000' },
+    /*{ name: 'Terminal', Icon: Terminal, color: '#000000' },*/
     { name: 'GitHub', Icon: GitHubIconLocal, color: '#181717', isImage: true },
     { name: 'Vercel', Icon: VercelIconLocal, color: '#000000', isImage: true },
     { name: 'Lovable', Icon: LovableIconLocal, color: '#FF6B9D', isImage: true },
@@ -135,22 +146,26 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
 
     // Frontend Development
     { name: 'HTML', Icon: htmlIconLocal, color: '#E34F26', isImage: true },
-    { name: 'CSS', Icon: FaCss3Alt, color: '#1572B6' },
-    { name: 'JavaScript', Icon: FaJs, color: '#F7DF1E' },
-    { name: 'React', Icon: FaReact, color: '#61DAFB' },
+    { name: 'CSS', Icon: CSSIconLocal, color: '#1572B6', isImage: true },
+    { name: 'JavaScript', Icon: JSIconLocal, color: '#F7DF1E', isImage: true },
+    { name: 'React', Icon: ReactIconLocal, color: '#61DAFB', isImage: true },
     { name: 'Bootstrap', Icon: FaBootstrap, color: '#7952B3' },
     { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#06B6D4' },
+    { name: 'Vite', Icon: ViteIconLocal, color: '#646C70', isImage: true },
 
     // Backend & Languages
-    { name: 'PHP', Icon: FaPhp, color: '#777BB4' },
-    { name: 'Python', Icon: FaPython, color: '#3776AB' },
-    { name: 'Java', Icon: FaJava, color: '#007396' },
+    { name: 'PHP', Icon: PHPIconLocal, color: '#777BB4', isImage: true },
+    { name: 'Python', Icon: PythonIconLocal, color: '#3776AB', isImage: true },
+    { name: 'Java', Icon: JavaIconLocal, color: '#007396', isImage: true },
     { name: 'Node JS', Icon: FaNodeJs, color: '#339933' },
+    { name: 'PostgreSQL', Icon: PostgreSQLIconLocal, color: '#336791', isImage: true },
+    { name: 'PHPMyAdmin', Icon: PHPMyAdminIconLocal, color: '#F0DB4F', isImage: true },
 
     // Databases & Cloud
-    { name: 'Supabase', Icon: SiSupabase, color: '#3ECF8E' },
+    { name: 'Supabase', Icon: SupabaseIconLocal, color: '#3ECF8E', isImage: true },
     { name: 'MySQL', Icon: SiMysql, color: '#4479A1' },
     { name: 'SQL Server Studio', Icon: Server, color: '#CC2927' },
+    { name: 'XAMPP', Icon: XAMPPIconLocal, color: '#F0DB4F', isImage: true },
 
     // Data Science & ML
     { name: 'TensorFlow', Icon: SiTensorflow, color: '#FF6F00' },
