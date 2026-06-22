@@ -77,7 +77,7 @@ const categories: Category[] = [
   {
     id: 'drawing',
     label: 'Coretan',
-    thumbnail: 'https://i.imgur.com/QLQyNG6.png',
+    thumbnail: 'https://i.imgur.com/U4dAQ6B.png',
     description: 'Hand-drawn illustrations & sketches',
   },
   {
