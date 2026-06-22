@@ -67,8 +67,14 @@ const XAMPPIconLocal   = 'https://i.imgur.com/cxIDP7k.png';
 const SupabaseIconLocal = 'https://i.imgur.com/ET85oS1.png';
 const PostgreSQLIconLocal = 'https://i.imgur.com/0KJ17Cf.png';
 const PHPMyAdminIconLocal = 'https://i.imgur.com/ZQ5GR95.png';
-const kaggleIconLocal  = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg';
-const RStudioIconLocal = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg';
+const BootstrapIconLocal = 'https://i.imgur.com/o3vnMof.png';
+const SQLSeverStudioIconLocal = 'https://i.imgur.com/qM4XwOc.png';
+const kaggleIconLocal  = 'https://i.imgur.com/AKoEIIS.png';
+const RStudioIconLocal = 'https://i.imgur.com/zkzJlju.png';
+const WiresharkIconLocal = 'https://i.imgur.com/49MJ51Q.png';
+const GoogleColabIconLocal = 'https://i.imgur.com/xpRLKJZ.png';
+const RailwayIconLocal = 'https://i.imgur.com/8RAKbJL.png';
+const SPSSIconLocal = 'https://i.imgur.com/cMHMajQ.png'; 
 const SheetIconLocal = 'https://i.imgur.com/cW4TGvw.png';
 const BookTextIconLocal = 'https://i.imgur.com/Col6mBG.png';
 const BrainIconLocal = 'https://i.imgur.com/X7GxUYs.png'; // ganti dengan Imgur
@@ -149,7 +155,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'CSS', Icon: CSSIconLocal, color: '#1572B6', isImage: true },
     { name: 'JavaScript', Icon: JSIconLocal, color: '#F7DF1E', isImage: true },
     { name: 'React', Icon: ReactIconLocal, color: '#61DAFB', isImage: true },
-    { name: 'Bootstrap', Icon: FaBootstrap, color: '#7952B3' },
+    { name: 'Bootstrap', Icon: BootstrapIconLocal, color: '#7952B3', isImage: true },
     { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#06B6D4' },
     { name: 'Vite', Icon: ViteIconLocal, color: '#646C70', isImage: true },
 
@@ -164,7 +170,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     // Databases & Cloud
     { name: 'Supabase', Icon: SupabaseIconLocal, color: '#3ECF8E', isImage: true },
     { name: 'MySQL', Icon: SiMysql, color: '#4479A1' },
-    { name: 'SQL Server Studio', Icon: Server, color: '#CC2927' },
+    { name: 'SQL Server Studio', Icon: SQLSeverStudioIconLocal, color: '#CC2927', isImage: true },
     { name: 'XAMPP', Icon: XAMPPIconLocal, color: '#F0DB4F', isImage: true },
 
     // Data Science & ML
@@ -174,8 +180,9 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'NumPy', Icon: Binary, color: '#013243' },
     { name: 'Matplotlib', Icon: BarChart, color: '#11557C' },
     { name: 'Scikit-learn', Icon: Brain, color: '#F7931E' },
-    { name: 'Google Colab', Icon: SiGooglecolab, color: '#F9AB00' },
+    { name: 'Google Colab', Icon: GoogleColabIconLocal, color: '#F9AB00', isImage: true },
     { name: 'Kaggle', Icon: kaggleIconLocal, color: '#20BEFF', isImage: true },
+    { name: 'Railway', Icon: RailwayIconLocal, color: '#000000', isImage: true },
 
     // Office & Productivity
     { name: 'Excel', Icon: SheetIconLocal, color: '#217346', isImage: true },
@@ -186,11 +193,11 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
 
     // Analysis & Research
     { name: 'R Studio', Icon: RStudioIconLocal, color: '#75AADB', isImage: true },
-    { name: 'SPSS', Icon: BarChart, color: '#052FAD' },
+    { name: 'SPSS', Icon: SPSSIconLocal, color: '#052FAD', isImage: true },
     { name: 'QM For Windows', Icon: BarChart, color: '#0066CC' },
     { name: 'Maple', Icon: Binary, color: '#FF0000' },
     { name: 'Mendeley', Icon: SiMendeley, color: '#9D1620' },
-    { name: 'Wireshark', Icon: Network, color: '#1679A7' },
+    { name: 'Wireshark', Icon: WiresharkIconLocal, color: '#1679A7', isImage: true },
 
     // Others
     { name: 'Google Maps', Icon: Map, color: '#4285F4' },
