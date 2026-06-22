@@ -74,8 +74,17 @@ const RStudioIconLocal = 'https://i.imgur.com/zkzJlju.png';
 const WiresharkIconLocal = 'https://i.imgur.com/49MJ51Q.png';
 const GoogleColabIconLocal = 'https://i.imgur.com/xpRLKJZ.png';
 const RailwayIconLocal = 'https://i.imgur.com/8RAKbJL.png';
-const SPSSIconLocal = 'https://i.imgur.com/cMHMajQ.png'; 
-const SheetIconLocal = 'https://i.imgur.com/cW4TGvw.png';
+const SPSSIconLocal = 'https://i.imgur.com/PIldgad.png';
+const MySQLIconLocal = 'https://i.imgur.com/dOcJG5w.png';
+const WordIconLocal = 'https://i.imgur.com/J4hqNbT.png'; 
+const SheetIconLocal = 'https://i.imgur.com/6OrLPqh.png';
+const PPTIconLocal = 'https://i.imgur.com/U9Wjbyi.png';
+const WPSIconLocal = 'https://i.imgur.com/scZ0WOG.png';
+const NotepadIconLocal = 'https://i.imgur.com/ttjRiAn.png';
+const MSProjectIconLocal = 'https://i.imgur.com/IF5YXHs.png';
+const MendeleyIconLocal = 'https://i.imgur.com/qvBeleR.png';
+const MapleIconLocal = 'https://i.imgur.com/mkBFtEm.png';
+const QMForWindowsIconLocal = 'https://i.imgur.com/Vn6UUuw.png';
 const BookTextIconLocal = 'https://i.imgur.com/Col6mBG.png';
 const BrainIconLocal = 'https://i.imgur.com/X7GxUYs.png'; // ganti dengan Imgur
 
@@ -169,7 +178,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
 
     // Databases & Cloud
     { name: 'Supabase', Icon: SupabaseIconLocal, color: '#3ECF8E', isImage: true },
-    { name: 'MySQL', Icon: SiMysql, color: '#4479A1' },
+    { name: 'MySQL', Icon: MySQLIconLocal, color: '#4479A1', isImage: true },
     { name: 'SQL Server Studio', Icon: SQLSeverStudioIconLocal, color: '#CC2927', isImage: true },
     { name: 'XAMPP', Icon: XAMPPIconLocal, color: '#F0DB4F', isImage: true },
 
@@ -186,17 +195,18 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
 
     // Office & Productivity
     { name: 'Excel', Icon: SheetIconLocal, color: '#217346', isImage: true },
-    { name: 'PowerPoint', Icon: Presentation, color: '#D04423' },
-    { name: 'Word', Icon: BookTextIconLocal, color: '#2B579A', isImage: true },
-    { name: 'WPS Office', Icon: FileText, color: '#D32F2F' },
-    { name: 'Notepad', Icon: FileEdit, color: '#4B5563' },
+    { name: 'PowerPoint', Icon: PPTIconLocal, color: '#D04423', isImage: true },
+    { name: 'Word', Icon: WordIconLocal, color: '#2B579A', isImage: true },
+    { name: 'WPS Office', Icon: WPSIconLocal, color: '#D32F2F', isImage: true },
+    { name: 'Notepad', Icon: NotepadIconLocal, color: '#4B5563', isImage: true },
+    { name: 'MS Project', Icon: MSProjectIconLocal, color: '#6A737B', isImage: true },
 
     // Analysis & Research
     { name: 'R Studio', Icon: RStudioIconLocal, color: '#75AADB', isImage: true },
     { name: 'SPSS', Icon: SPSSIconLocal, color: '#052FAD', isImage: true },
-    { name: 'QM For Windows', Icon: BarChart, color: '#0066CC' },
-    { name: 'Maple', Icon: Binary, color: '#FF0000' },
-    { name: 'Mendeley', Icon: SiMendeley, color: '#9D1620' },
+    { name: 'QM For Windows', Icon: QMForWindowsIconLocal, color: '#0066CC', isImage: true },
+    { name: 'Maple', Icon: MapleIconLocal, color: '#FF0000', isImage: true },
+    { name: 'Mendeley', Icon: MendeleyIconLocal, color: '#9D1620', isImage: true },
     { name: 'Wireshark', Icon: WiresharkIconLocal, color: '#1679A7', isImage: true },
 
     // Others
