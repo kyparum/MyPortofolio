@@ -21,10 +21,10 @@ export function Certificate({ darkMode }: CertificateProps) {
   const certificates: CertificateItem[] = [
     {
       id: '1',
-      title: 'UI/UX Design Fundamentals',
-      issuer: 'My Skill',
-      date: 'January 2024',
-      image: thumbnailPresentasi,
+      title: 'Membangun Proyek Deep Learning Tingkat Mahir',
+      issuer: 'Dicoding',
+      date: 'April 2026',
+      image: 'https://i.imgur.com/lX1Rtad.png',
       description: `This comprehensive UI/UX Design Fundamentals course provided a solid foundation in user interface and user experience design principles.
 
 The course covered essential topics including:
@@ -37,7 +37,7 @@ The course covered essential topics including:
 
 Through hands-on projects and real-world case studies, I gained practical experience in creating user-centered designs that balance aesthetics with functionality. The course emphasized the importance of understanding user needs and iterative design processes.`,
       skills: ['UI Design', 'UX Research', 'Wireframing', 'Prototyping', 'User Testing'],
-      credentialUrl: 'file:///E:/Okky/Kuliah/DBS%20DICODING/Sertifikat%20Kelas%20AI%20Engineer/sertifikat_belajar%20dasar%20AI.pdf',
+      credentialUrl: 'https://drive.google.com/file/d/16tBSC43w4z92k9lFFZQgySCxgKzT1Z8s/view?usp=sharing',
     },
     {
       id: '2',
