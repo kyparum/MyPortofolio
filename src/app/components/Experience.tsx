@@ -30,7 +30,7 @@ interface PosterProject {
   title: string;
   thumbnail: string;
   description: string;
-  image: string;
+  images: string[];
 }
 
 interface AppProject {
@@ -104,7 +104,7 @@ const carouselProjects: CarouselProject[] = [
     description: 'Carousel social media tentang produk madu alami. Berisi konten informatif seputar manfaat madu, cara penyajian, dan promosi produk.',
     images: [
       'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80',
-      'https://images.unsplash.com/photo-1471943038374-ae4fb35a7eb2?w=1200&q=80',
+      'https://i.imgur.com/VW3HNE7.jpeg',
       'https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=1200&q=80',
     ],
   },
@@ -138,14 +138,16 @@ const posterProjects: PosterProject[] = [
     title: 'Music Festival Poster',
     thumbnail: 'https://images.unsplash.com/photo-1746420554422-dde3a8745d6b?w=600&q=80',
     description: 'Poster promosi untuk music festival dengan visual bold dan tipografi dinamis. Dirancang untuk menarik perhatian dan menyampaikan energi festival.',
-    image: 'https://i.imgur.com/1hEooPb.jpeg'
+    images: ['https://i.imgur.com/1hEooPb.jpeg',
+             'https://i.imgur.com/VW3HNE7.jpeg',
+    ]
   },
   {
     id: 'p-business',
     title: 'Business Event Poster',
     thumbnail: 'https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?w=600&q=80',
     description: 'Poster acara bisnis dengan desain profesional dan clean. Menggabungkan elemen korporat dengan visual yang modern dan informatif.',
-    image: 'https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?w=1200&q=80',
+    images: ['https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?w=1200&q=80'],
   },
 ];
 
@@ -254,8 +256,8 @@ function BackButton({ onClick, darkMode }: { onClick: () => void; darkMode: bool
   );
 }
 
-// Image slideshow used by Carousel & Drawing detail
-function ImageSlider({ images, darkMode }: { images: string[]; darkMode: boolean }) {
+// Image slideshow used by Carousel, Poster & Drawing detail
+function ImageSlider({ images, darkMode, fullSize = false }: { images: string[]; darkMode: boolean; fullSize?: boolean }) {
   const [idx, setIdx] = useState(0);
   const prev = () => setIdx((i) => (i - 1 + images.length) % images.length);
   const next = () => setIdx((i) => (i + 1) % images.length);
@@ -272,7 +274,7 @@ function ImageSlider({ images, darkMode }: { images: string[]; darkMode: boolean
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -30 }}
             transition={{ duration: 0.3 }}
-            className="w-full aspect-video object-cover"
+            className={fullSize ? 'w-full h-auto object-contain' : 'w-full aspect-video object-cover'}
           />
         </AnimatePresence>
         {images.length > 1 && (
@@ -351,7 +353,7 @@ function CarouselDetail({ project, darkMode, onBack }: { project: CarouselProjec
       <div className={`rounded-2xl p-5 sm:p-7 space-y-5 ${darkMode ? 'bg-gray-800/50 border border-pink-500/20' : 'bg-white/80 border border-pink-200 shadow-lg'}`}>
         <h3 className={`text-xl sm:text-2xl ${darkMode ? 'text-pink-400' : 'text-pink-600'}`}>{project.title}</h3>
         <p className={`text-base sm:text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>{project.description}</p>
-        <ImageSlider images={project.images} darkMode={darkMode} />
+        <ImageSlider images={project.images} darkMode={darkMode} fullSize />
       </div>
     </div>
   );
@@ -364,9 +366,7 @@ function PosterDetail({ project, darkMode, onBack }: { project: PosterProject; d
       <div className={`rounded-2xl p-5 sm:p-7 space-y-5 ${darkMode ? 'bg-gray-800/50 border border-pink-500/20' : 'bg-white/80 border border-pink-200 shadow-lg'}`}>
         <h3 className={`text-xl sm:text-2xl ${darkMode ? 'text-pink-400' : 'text-pink-600'}`}>{project.title}</h3>
         <p className={`text-base sm:text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>{project.description}</p>
-        <div className={`rounded-2xl overflow-hidden border ${darkMode ? 'border-pink-500/20' : 'border-pink-200'}`}>
-          <img src={project.image} alt={project.title} className="w-full object-cover" />
-        </div>
+        <ImageSlider images={project.images} darkMode={darkMode} fullSize />
       </div>
     </div>
   );
@@ -421,7 +421,7 @@ function DrawingDetail({ project, darkMode, onBack }: { project: DrawingProject;
       <div className={`rounded-2xl p-5 sm:p-7 space-y-5 ${darkMode ? 'bg-gray-800/50 border border-pink-500/20' : 'bg-white/80 border border-pink-200 shadow-lg'}`}>
         <h3 className={`text-xl sm:text-2xl ${darkMode ? 'text-pink-400' : 'text-pink-600'}`}>{project.title}</h3>
         <p className={`text-base sm:text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>{project.description}</p>
-        <ImageSlider images={project.images} darkMode={darkMode} />
+        <ImageSlider images={project.images} darkMode={darkMode} fullSize />
       </div>
     </div>
   );
