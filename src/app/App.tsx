@@ -321,7 +321,7 @@ export default function App() {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className={`fixed bottom-9 right-9 z-15 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 ${
+          className={`fixed bottom-10 right-12 z-15 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 ${
             darkMode
               ? 'bg-pink-500 hover:bg-pink-400 text-white shadow-[0_0_25px_rgba(236,72,153,0.5)]'
               : 'bg-pink-500 hover:bg-pink-600 text-white shadow-pink-300'
