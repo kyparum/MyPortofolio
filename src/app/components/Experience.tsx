@@ -76,8 +76,8 @@ const categories: Category[] = [
   },
   {
     id: 'drawing',
-    label: 'Drawing',
-    thumbnail: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80',
+    label: 'Coretan',
+    thumbnail: 'https://i.imgur.com/QLQyNG6.png',
     description: 'Hand-drawn illustrations & sketches',
   },
   {
