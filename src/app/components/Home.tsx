@@ -85,8 +85,14 @@ const MSProjectIconLocal = 'https://i.imgur.com/IF5YXHs.png';
 const MendeleyIconLocal = 'https://i.imgur.com/qvBeleR.png';
 const MapleIconLocal = 'https://i.imgur.com/mkBFtEm.png';
 const QMForWindowsIconLocal = 'https://i.imgur.com/Vn6UUuw.png';
-const BookTextIconLocal = 'https://i.imgur.com/Col6mBG.png';
-const BrainIconLocal = 'https://i.imgur.com/X7GxUYs.png'; // ganti dengan Imgur
+const PandasIconLocal = 'https://i.imgur.com/3ykm0Uo.png';
+const MatplotlibIconLocal = 'https://i.imgur.com/YUgFJkB.png';
+const TensorFlowIconLocal = 'https://i.imgur.com/JScSw6C.png';
+const PyTorchIconLocal = 'https://i.imgur.com/eVPQ8eV.png';
+const NumPyIconLocal = 'https://i.imgur.com/CsXa7Ry.png';
+const ScikitLearnIconLocal = 'https://i.imgur.com/boyEbHg.png';
+const TailwindcssIconLocal = 'https://i.imgur.com/bT79TNh.png';
+const NodejsIconLocal = 'https://i.imgur.com/qlL79jc.png';
 
 
 
@@ -149,8 +155,8 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     /*{ name: 'Quilbot', Icon: Pen, color: '#4B5563' },*/
 
     // Development Tools
-    { name: 'Anaconda', Icon: SiAnaconda, color: '#44A833' },
-    { name: 'Docker', Icon: FaDocker, color: '#2496ED' },
+    /*{ name: 'Anaconda', Icon: SiAnaconda, color: '#44A833' },
+    { name: 'Docker', Icon: FaDocker, color: '#2496ED' },*/
     { name: 'VS Code', Icon: VSCodeIconLocal, color: '#007ACC', isImage: true },
     /*{ name: 'Terminal', Icon: Terminal, color: '#000000' },*/
     { name: 'GitHub', Icon: GitHubIconLocal, color: '#181717', isImage: true },
@@ -165,14 +171,14 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'JavaScript', Icon: JSIconLocal, color: '#F7DF1E', isImage: true },
     { name: 'React', Icon: ReactIconLocal, color: '#61DAFB', isImage: true },
     { name: 'Bootstrap', Icon: BootstrapIconLocal, color: '#7952B3', isImage: true },
-    { name: 'Tailwind CSS', Icon: SiTailwindcss, color: '#06B6D4' },
+    { name: 'Tailwind CSS', Icon: TailwindcssIconLocal, color: '#06B6D4', isImage: true },
     { name: 'Vite', Icon: ViteIconLocal, color: '#646C70', isImage: true },
 
     // Backend & Languages
     { name: 'PHP', Icon: PHPIconLocal, color: '#777BB4', isImage: true },
     { name: 'Python', Icon: PythonIconLocal, color: '#3776AB', isImage: true },
     { name: 'Java', Icon: JavaIconLocal, color: '#007396', isImage: true },
-    { name: 'Node JS', Icon: FaNodeJs, color: '#339933' },
+    { name: 'Node JS', Icon: FaNodeJs, color: '#339933', isImage: true },
     { name: 'PostgreSQL', Icon: PostgreSQLIconLocal, color: '#336791', isImage: true },
     { name: 'PHPMyAdmin', Icon: PHPMyAdminIconLocal, color: '#F0DB4F', isImage: true },
 
@@ -183,12 +189,12 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'XAMPP', Icon: XAMPPIconLocal, color: '#F0DB4F', isImage: true },
 
     // Data Science & ML
-    { name: 'TensorFlow', Icon: SiTensorflow, color: '#FF6F00' },
-    { name: 'PyTorch', Icon: SiPytorch, color: '#EE4C2C' },
-    { name: 'Pandas', Icon: Beaker, color: '#150458' },
-    { name: 'NumPy', Icon: Binary, color: '#013243' },
-    { name: 'Matplotlib', Icon: BarChart, color: '#11557C' },
-    { name: 'Scikit-learn', Icon: Brain, color: '#F7931E' },
+    { name: 'TensorFlow', Icon: TensorFlowIconLocal, color: '#FF6F00', isImage: true },
+    { name: 'PyTorch', Icon: PyTorchIconLocal, color: '#EE4C2C', isImage: true },
+    { name: 'Pandas', Icon: PandasIconLocal, color: '#150458', isImage: true },
+    { name: 'NumPy', Icon: NumPyIconLocal, color: '#013243', isImage: true },
+    { name: 'Matplotlib', Icon: MatplotlibIconLocal, color: '#11557C', isImage: true },
+    { name: 'Scikit-learn', Icon: ScikitLearnIconLocal, color: '#F7931E', isImage: true },
     { name: 'Google Colab', Icon: GoogleColabIconLocal, color: '#F9AB00', isImage: true },
     { name: 'Kaggle', Icon: kaggleIconLocal, color: '#20BEFF', isImage: true },
     { name: 'Railway', Icon: RailwayIconLocal, color: '#000000', isImage: true },
@@ -210,7 +216,7 @@ export function Home({ darkMode, setActiveSection }: HomeProps) {
     { name: 'Wireshark', Icon: WiresharkIconLocal, color: '#1679A7', isImage: true },
 
     // Others
-    { name: 'Google Maps', Icon: Map, color: '#4285F4' },
+    /*{ name: 'Google Maps', Icon: Map, color: '#4285F4' },*/
   ];
 
   // Split tools into two rows for animation
