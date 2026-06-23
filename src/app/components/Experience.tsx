@@ -147,11 +147,12 @@ const carouselProjects: CarouselProject[] = [
     thumbnail: 'https://i.imgur.com/Hq5ap80.png',
     description: 'Promosi terkait Kit Creative dari sebuah iklan.',
     images: [
-      'https://i.imgur.com/qCy76jX.png',
-      'https://i.imgur.com/oEhlJWP.png',
-      'https://i.imgur.com/RErZpnM.png',
-      'https://i.imgur.com/Vl8dSPJ.png',
-      'https://i.imgur.com/wdJfM6u.png',
+      'https://i.imgur.com/sWm1xrR.png',
+      'https://i.imgur.com/lRVYYZ1.png',
+      'https://i.imgur.com/XvV6dx0.png',
+      'https://i.imgur.com/tUxLRMM.png',
+      'https://i.imgur.com/f8meBm7.png',
+      'https://i.imgur.com/AFSrpUc.png',
     ],
   },
 ];
