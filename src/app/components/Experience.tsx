@@ -99,13 +99,16 @@ const categories: Category[] = [
 const carouselProjects: CarouselProject[] = [
   {
     id: 'c-madu',
-    title: 'Madu',
-    thumbnail: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80',
-    description: 'Carousel social media tentang produk madu alami. Berisi konten informatif seputar manfaat madu, cara penyajian, dan promosi produk.',
+    title: 'Madu Mara`i',
+    thumbnail: 'https://i.imgur.com/IfwKEBg.png',
+    description: 'Carousel social media tentang produk madu. Berisi konten informatif seputar manfaat madu, dan promosi produk.',
     images: [
-      'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80',
-      'https://i.imgur.com/VW3HNE7.jpeg',
-      'https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=1200&q=80',
+      'https://i.imgur.com/ygdI7xZ.png',
+      'https://i.imgur.com/DiCR6Z1.png',
+      'https://i.imgur.com/tBmKcQv.png',
+      'https://i.imgur.com/Uj7kKEb.png',
+      'https://i.imgur.com/vbVHtA9.png',
+      'https://i.imgur.com/dEOqgFw.png',
     ],
   },
   {
