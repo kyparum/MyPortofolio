@@ -308,7 +308,7 @@ export function Sidebar({ activeSection, setActiveSection, darkMode, toggleDarkM
                 <motion.button
                   whileTap={{ scale: 0.95 }}
                   onClick={() => {
-                    window.open('https://drive.google.com/file/d/1vFttwtypBdh8pcHtEOJKitQtnUZ3nIct/view?usp=sharing', '_blank');
+                    window.open('https://docs.google.com/document/d/1_YfQ5XM_6QJkuTdDU5Y1wGazbNIYkLityLYdeo9x_KY/edit?usp=sharing', '_blank');
                     setIsMobileMenuOpen(false);
                   }}
                   className={`w-full flex items-center justify-center gap-2 px-6 py-3 rounded-xl transition-all ${
