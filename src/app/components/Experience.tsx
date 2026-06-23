@@ -77,19 +77,19 @@ const categories: Category[] = [
   {
     id: 'drawing',
     label: 'Coretan',
-    thumbnail: 'https://i.imgur.com/U4dAQ6B.png',
+    thumbnail: 'https://i.imgur.com/Y7rxnJr.png',
     description: 'Hand-drawn illustrations & sketches',
   },
   {
     id: 'uiux',
     label: 'UI/UX Design',
-    thumbnail: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?w=600&q=80',
+    thumbnail: 'https://i.imgur.com/O4YgkBs.png',
     description: 'User interface & experience design',
   },
   {
     id: 'ppt',
     label: 'Design PPT',
-    thumbnail: 'https://images.unsplash.com/photo-1666148610265-5e64d889574b?w=600&q=80',
+    thumbnail: 'https://i.imgur.com/LVB3gTi.png',
     description: 'Presentation & slide deck designs',
   },
 ];
@@ -471,7 +471,7 @@ export function Experience({ darkMode }: ExperienceProps) {
             className={view.level !== 'categories' ? 'cursor-pointer hover:underline' : ''}
             onClick={() => view.level !== 'categories' && setView({ level: 'categories' })}
           >
-            Semua Kategori
+            All Categories
           </span>
           {catLabel && (
             <>
