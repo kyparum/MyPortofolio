@@ -114,12 +114,14 @@ const carouselProjects: CarouselProject[] = [
   {
     id: 'c-danbo',
     title: 'Danbo',
-    thumbnail: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    thumbnail: 'https://i.imgur.com/9EMsCP2.png',
     description: 'Carousel kreatif bertema karakter Danbo. Menampilkan seri foto storytelling dengan karakter kardus ikonik dalam berbagai situasi.',
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
-      'https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?w=1200&q=80',
-      'https://images.unsplash.com/photo-1542382257-80dedb725088?w=1200&q=80',
+      'https://i.imgur.com/qCy76jX.png',
+      'https://i.imgur.com/oEhlJWP.png',
+      'https://i.imgur.com/RErZpnM.png',
+      'https://i.imgur.com/Vl8dSPJ.png',
+      'https://i.imgur.com/wdJfM6u.png',
     ],
   },
   {
