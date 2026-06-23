@@ -141,6 +141,19 @@ const carouselProjects: CarouselProject[] = [
       'https://i.imgur.com/78kLah2.png',
     ],
   },
+  {
+    id: 'c-ads',
+    title: 'ADS Creative Kit',
+    thumbnail: 'https://i.imgur.com/Hq5ap80.png',
+    description: 'Promosi terkait Kit Creative dari sebuah iklan.',
+    images: [
+      'https://i.imgur.com/qCy76jX.png',
+      'https://i.imgur.com/oEhlJWP.png',
+      'https://i.imgur.com/RErZpnM.png',
+      'https://i.imgur.com/Vl8dSPJ.png',
+      'https://i.imgur.com/wdJfM6u.png',
+    ],
+  },
 ];
 
 const posterProjects: PosterProject[] = [
