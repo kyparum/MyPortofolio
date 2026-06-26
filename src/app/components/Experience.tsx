@@ -169,10 +169,10 @@ const posterProjects: PosterProject[] = [
   },
   {
     id: 'p-business',
-    title: 'Business Event Poster',
-    thumbnail: 'https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?w=600&q=80',
-    description: 'Poster acara bisnis dengan desain profesional dan clean. Menggabungkan elemen korporat dengan visual yang modern dan informatif.',
-    images: ['https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?w=1200&q=80'],
+    title: 'Birthday Poster',
+    thumbnail: 'https://i.imgur.com/uvV5rH3.jpeg',
+    description: 'Poster ulang tahun dengan desain yang ceria dan menarik.',
+    images: ['https://i.imgur.com/EpTnWGg.png'],
   },
 ];
 
