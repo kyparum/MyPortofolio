@@ -103,7 +103,7 @@ interface HomeProps {
 
 export function Home({ darkMode, setActiveSection }: HomeProps) {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = "Hii, I'm Okky Puspa Ningrum";
+  const fullText = "Hii, I'm Okky";
 
   useEffect(() => {
     let index = 0;
