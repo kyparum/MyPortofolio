@@ -100,7 +100,7 @@ const carouselProjects: CarouselProject[] = [
   {
     id: 'c-madu',
     title: 'Madu Mara`i',
-    thumbnail: 'https://i.imgur.com/IfwKEBg.png',
+    thumbnail: 'https://i.imgur.com/c2ZXUWY.png',
     description: 'Carousel social media tentang produk madu. Berisi konten informatif seputar manfaat madu, dan promosi produk.',
     images: [
       'https://i.imgur.com/ygdI7xZ.png',
@@ -114,7 +114,7 @@ const carouselProjects: CarouselProject[] = [
   {
     id: 'c-danbo',
     title: 'Danbo',
-    thumbnail: 'https://i.imgur.com/9EMsCP2.png',
+    thumbnail: 'https://i.imgur.com/idLFclj.png',
     description: 'Carousel kreatif bertema karakter Danbo. Menampilkan seri foto storytelling dengan karakter kardus ikonik dalam berbagai situasi.',
     images: [
       'https://i.imgur.com/qCy76jX.png',
@@ -127,7 +127,7 @@ const carouselProjects: CarouselProject[] = [
   {
     id: 'c-pangan',
     title: 'Ubi Jalar',
-    thumbnail: 'https://i.imgur.com/NH0yPNL.png',
+    thumbnail: 'https://i.imgur.com/OS1ndVH.png',
     description: 'Carousel edukasi tentang ketahanan pangan. Menyajikan informasi resep dari bahan pangan lokal.',
     images: [
       'https://i.imgur.com/dzwUIJq.png',
@@ -160,9 +160,9 @@ const carouselProjects: CarouselProject[] = [
 const posterProjects: PosterProject[] = [
   {
     id: 'p-festival',
-    title: 'Music Festival Poster',
-    thumbnail: 'https://images.unsplash.com/photo-1746420554422-dde3a8745d6b?w=600&q=80',
-    description: 'Poster promosi untuk music festival dengan visual bold dan tipografi dinamis. Dirancang untuk menarik perhatian dan menyampaikan energi festival.',
+    title: 'Poster Kemerdekaan',
+    thumbnail: 'https://i.imgur.com/FGhHL5w.jpeg',
+    description: 'Poster untuk memeriahkan perayaan hari kemerdekaan.',
     images: ['https://i.imgur.com/1hEooPb.jpeg',
              'https://i.imgur.com/VW3HNE7.jpeg',
     ]
