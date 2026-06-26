@@ -41,10 +41,10 @@ Through hands-on projects and real-world case studies, I gained practical experi
     },
     {
       id: '2',
-      title: 'Mastering Figma',
-      issuer: 'BuildWith Angga (BWA)',
-      date: 'March 2024',
-      image: 'https://images.unsplash.com/photo-1759560245150-8dcbb7f01142?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGNlcnRpZmljYXRlfGVufDF8fHx8MTc2NzA3OTIzNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      title: 'Belajar Fundamental Deep Learning',
+      issuer: 'Dicoding',
+      date: 'March 2026',
+      image: 'https://i.imgur.com/MDQIdtt.png',
       description: `An intensive course focused on mastering Figma, the industry-leading collaborative design tool. This certification demonstrates proficiency in using Figma for professional design work.
 
 Course highlights included:
@@ -57,14 +57,14 @@ Course highlights included:
 
 The course provided extensive hands-on practice with real-world design scenarios, teaching efficient workflows and best practices used by top design teams. I learned to create scalable design systems and collaborate effectively with development teams.`,
       skills: ['Figma', 'Design Systems', 'Component Design', 'Prototyping', 'Collaboration'],
-      credentialUrl: 'https://www.dicoding.com/dicodingassets/coursecertificate/d74eb3805a0ae3cf32727c701f732e97b64f6ea8/view',
+      credentialUrl: 'https://drive.google.com/file/d/11VGH2qUvupEe_XBS5TqMuPjs2Ys6CMMA/view?usp=sharing',
     },
     {
       id: '3',
-      title: 'Design Thinking Workshop',
-      issuer: 'KTSG Sangga UI',
-      date: 'September 2023',
-      image: 'https://images.unsplash.com/photo-1715000968071-e3b0068c718d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRpcGxvbWF8ZW58MXx8fHwxNjcwNjE2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      title: 'Belajar Machine Learning untuk Pemula',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/O46A6Mz.png',
       description: `A transformative workshop that introduced the Design Thinking methodology for creative problem-solving and innovation.
 
 The workshop covered the five stages of Design Thinking:
@@ -76,14 +76,14 @@ The workshop covered the five stages of Design Thinking:
 
 Through collaborative group exercises and case studies, I learned to approach complex problems with a human-centered mindset. The workshop emphasized the importance of empathy, experimentation, and iteration in the design process.`,
       skills: ['Design Thinking', 'Problem Solving', 'Ideation', 'User Empathy', 'Innovation'],
-      credentialUrl: 'https://ktsg.ui.ac.id/certificate/design-thinking',
+      credentialUrl: 'https://drive.google.com/file/d/1A7t6Jto3G0BxB-aMhWCA6aYcS8U0sWs3/view?usp=sharing',
     },
     {
       id: '4',
-      title: 'Creative Design Bootcamp',
-      issuer: 'Campus',
-      date: 'November 2023',
-      image: 'https://images.unsplash.com/photo-1759560245150-8dcbb7f01142?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGNlcnRpZmljYXRlfGVufDF8fHx8MTc2NzA3OTIzNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      title: 'Memulai Pemrograman dengan Python',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/1AthYco.png',
       description: `An intensive bootcamp focused on developing creative design skills across multiple disciplines and mediums.
 
 The bootcamp curriculum included:
@@ -96,14 +96,14 @@ The bootcamp curriculum included:
 
 Over several weeks of intensive learning, I worked on various design projects that challenged my creativity and technical skills. The bootcamp fostered a collaborative environment where students could share ideas, receive feedback, and grow as designers.`,
       skills: ['Graphic Design', 'Typography', 'Branding', 'Illustration', 'Creative Thinking'],
-      credentialUrl: 'https://campus.example.com/bootcamp-certificate',
+      credentialUrl: 'https://drive.google.com/file/d/1EC6L3q4XEOqiYIMBNRfD485-afwZVNts/view?usp=sharing',
     },
     {
       id: '5',
-      title: 'Adobe Illustrator Masterclass',
-      issuer: 'Lentera',
-      date: 'July 2023',
-      image: 'https://images.unsplash.com/photo-1715000968071-e3b0068c718d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRpcGxvbWF8ZW58MXx8fHwxNjcwNjE2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      title: 'Belajar Dasar AI',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/txGp9j6.png',
       description: `A comprehensive masterclass in Adobe Illustrator, covering advanced vector graphics and illustration techniques.
 
 Topics covered in this masterclass:
@@ -117,14 +117,14 @@ Topics covered in this masterclass:
 
 The course emphasized professional workflows and industry-standard techniques used by top illustrators and designers. Through practical projects, I developed proficiency in creating high-quality vector graphics for both digital and print media.`,
       skills: ['Adobe Illustrator', 'Vector Graphics', 'Logo Design', 'Illustration', 'Digital Art'],
-      credentialUrl: 'https://lentera.id/certificate/illustrator',
+      credentialUrl: 'https://drive.google.com/file/d/1zNDoQPuF6G61ULVds-nBkaqM3_UTlx6T/view?usp=sharing',
     },
     {
       id: '6',
-      title: 'Web Design Professional',
-      issuer: 'Dicoding Indonesia',
-      date: 'May 2024',
-      image: 'https://images.unsplash.com/photo-1759560245150-8dcbb7f01142?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGNlcnRpZmljYXRlfGVufDF8fHx8MTc2NzA3OTIzNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      title: 'Belajar Dasar Git dengan GitHub',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/VNinu2g.png',
       description: `Professional certification in modern web design, covering both design principles and front-end implementation.
 
 Course content included:
@@ -138,7 +138,49 @@ Course content included:
 
 This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
       skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
-      credentialUrl: 'https://dicoding.com/certificate/web-design',
+      credentialUrl: 'https://drive.google.com/file/d/1MQb0MNGnmQ-U9WUxOOa6doU9_nm0s7Xl/view?usp=sharing',
+    },
+    {
+      id: '7',
+      title: 'Pengenalan ke Logika Pemrograman (Programming Logic 101)',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/ITvhqmU.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/13R39n22vkHoj-8ND_fb6-PQT3Y65W-bj/view?usp=sharing',
+    },
+    {
+      id: '8',
+      title: 'Memulai Dasar Pemrograman untuk Menjadi Pengembang Software',
+      issuer: 'Dicoding',
+      date: 'Februari 2026',
+      image: 'https://i.imgur.com/hSLutcL.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1EJYCWsDFlyHNteJATW_jbQ7g5J9l9lbW/view?usp=sharing',
     },
   ];
 
