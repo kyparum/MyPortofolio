@@ -113,7 +113,7 @@ export function AboutMe({ darkMode }: AboutMeProps) {
       status: "Internship ",
       location: "Remote • Bandung, West Java, Indonesia ",
     },
-    {
+    /*{
       position: "Worker",
       company: "Jokilabs",
       period: "Jun 2025 - Present",
@@ -127,7 +127,7 @@ export function AboutMe({ darkMode }: AboutMeProps) {
       status: "Freelance",
       location: "Remote • Surakarta",
     },
-    /*
+    
     {
       position: "Freelance Web Designer",
       company: "Self-Employed",
