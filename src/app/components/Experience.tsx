@@ -160,25 +160,26 @@ const carouselProjects: CarouselProject[] = [
 const posterProjects: PosterProject[] = [
   {
     id: 'p-kemerdekaan',
-    title: 'Poster Kemerdekaan',
-    thumbnail: 'https://i.imgur.com/FGhHL5w.jpeg',
-    description: 'Poster untuk memeriahkan perayaan hari kemerdekaan.',
+    title: 'National Day Poster Campaign',
+    thumbnail: 'https://i.imgur.com/6tPXrZZ.png',
+    description: 'A creative poster series dedicated to commemorating Indonesian national days.',
     images: ['https://i.imgur.com/1hEooPb.jpeg',
              'https://i.imgur.com/VW3HNE7.jpeg',
+             'https://i.imgur.com/WBA6pht.png',
     ]
   },
   {
     id: 'p-birthday',
     title: 'Birthday Poster',
     thumbnail: 'https://i.imgur.com/uvV5rH3.jpeg',
-    description: 'Poster ulang tahun dengan desain yang ceria dan menarik.',
+    description: '"A creative poster series designed for celebrating anniversaries.',
     images: ['https://i.imgur.com/EpTnWGg.png'],
   },
   {
     id: 'p-school',
-    title: 'Task School Poster',
+    title: 'Assignment Gallery',
     thumbnail: 'https://i.imgur.com/iiDmhJ8.png',
-    description: 'Kumpulan poster tugas sekolah.',
+    description: 'A collection of creative poster designs developed as part of academic assignments.',
     images: ['https://i.imgur.com/D5oeW2c.png',
              'https://i.imgur.com/zmuVSKZ.jpeg',
              'https://i.imgur.com/NGb8xOz.png',
