@@ -182,6 +182,174 @@ This certification validates my ability to design and implement professional, ac
       skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
       credentialUrl: 'https://drive.google.com/file/d/1EJYCWsDFlyHNteJATW_jbQ7g5J9l9lbW/view?usp=sharing',
     },
+    {
+      id: '9',
+      title: 'Product Roadmap and Introduction to PRD',
+      issuer: 'MySkill Short Class',
+      date: 'February 2023',
+      image: 'https://i.imgur.com/eJxCvJv.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/14u1hbO9vW7TeetOFADsbUWsFup3o3dca/view?usp=sharing',
+    },
+    {
+      id: '10',
+      title: 'Interview Preparation for Scholarship',
+      issuer: 'MySkill Short Class',
+      date: 'February 2023',
+      image: 'https://i.imgur.com/UvlNKDG.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/14u1hbO9vW7TeetOFADsbUWsFup3o3dca/view?usp=sharing',
+    },
+    {
+      id: '11',
+      title: 'Introduction to Frontend',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/fiWzFoH.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/14zazy2ga6J7cuNNy0RwF_uHbOpSxfarc/view?usp=sharing',
+    },
+    {
+      id: '12',
+      title: 'Social Media Research and Analytics',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/nMOm5PJ.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1mSWzWpmZZBZBjfOcGS-dmDpDRuko7EOG/view?usp=sharing',
+    },
+    {
+      id: '13',
+      title: 'Basic Statistics and Data Visualization',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/W7qIoB5.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1sMQVGqOhvEvkTLiQKR8VAGjwD8T944wD/view?usp=sharing',
+    },
+    {
+      id: '14',
+      title: 'Introduction to Figma',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/92KPLXb.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1_NqceDpCe0XRG531DJptJLU-qErzMN-t/view?usp=sharing',
+    },
+    {
+      id: '14',
+      title: 'Data Visualization',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/o20u79h.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1ioWd_hmt8xc3gof8M2NfTz1PpbVEQvn_/view?usp=sharing',
+    },
+    {
+      id: '15',
+      title: 'Product Vision and Strategy',
+      issuer: 'MySkill Short Class',
+      date: 'March 2023',
+      image: 'https://i.imgur.com/XxSXpkg.png',
+      description: `Professional certification in modern web design, covering both design principles and front-end implementation.
+
+Course content included:
+- Responsive web design principles
+- CSS Grid and Flexbox layouts
+- Modern UI frameworks and libraries
+- Web accessibility standards (WCAG)
+- Performance optimization
+- Cross-browser compatibility
+- Mobile-first design approach
+
+This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
+      skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
+      credentialUrl: 'https://drive.google.com/file/d/1pjL-Djohao1j_auZJsyMok_LMRZ5KLP9/view?usp=sharing',
+    },
   ];
 
   // Certificate grid
