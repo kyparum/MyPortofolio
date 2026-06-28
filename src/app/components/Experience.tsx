@@ -234,14 +234,14 @@ const drawingProjects: DrawingProject[] = [
 
 const uiuxProjects: AppProject[] = [
   {
-    id: 'ux-reservasi',
-    title: 'E-Commerce Mobile App',
-    thumbnail: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?w=600&q=80',
-    description: 'Desain UI/UX aplikasi mobile e-commerce dengan fokus pada user experience yang intuitif.',
+    id: 'ux-3role',
+    title: 'Mindflow 3 Role App',
+    thumbnail: 'https://i.imgur.com/4T5j7oV.png',
+    description: 'Desain UI/UX untuk orderan atau tukar jasa yang di serahkan admin kepada worker dari pesanan customer.',
     tags: ['Figma', 'UI/UX', 'Mobile'],
-    longDesc: 'Proyek desain aplikasi mobile e-commerce yang mencakup user research, wireframing, hingga high-fidelity prototype. Dirancang menggunakan design system yang konsisten untuk memastikan kohesivitas visual di seluruh aplikasi.',
-    figmaUrl: 'https://www.figma.com/file/example-ecommerce',
-    figmaProtoUrl: 'https://www.figma.com/proto/example-ecommerce',
+    longDesc: 'Proyek desain web semester 5 yang mencakup user research, wireframing, hingga high-fidelity prototype. Dirancang menggunakan design system yang konsisten untuk memastikan kohesivitas visual di seluruh aplikasi.',
+    figmaUrl: 'https://www.figma.com/design/wEW6JMeTx2uJr2dxdnWCXs/UI-UX-MINDFLOW-3-ROLE?node-id=0-1&t=ewJj6iN9H4SiYHOk-1',
+    figmaProtoUrl: 'https://www.figma.com/proto/wEW6JMeTx2uJr2dxdnWCXs/UI-UX-MINDFLOW-3-ROLE?node-id=117-2&t=jg1YLKviCuZjzBf8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
   },
   {
     id: 'ux-warmindo',
