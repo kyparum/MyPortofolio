@@ -263,6 +263,16 @@ const uiuxProjects: AppProject[] = [
     figmaUrl: 'https://www.figma.com/design/1uoVbYQ1rDrJxpYmR3blAX/MindFlow?node-id=0-1&t=w7nalnv2uuot9kQu-1',
     figmaProtoUrl: 'https://www.figma.com/proto/1uoVbYQ1rDrJxpYmR3blAX/MindFlow?node-id=152-277&t=MLSu266RIMXTWJrF-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=113%3A221',
   },
+  {
+    id: 'ux-kaitiket',
+    title: 'KAI tiket',
+    thumbnail: 'https://i.imgur.com/tNwt2df.png',
+    description: 'Antarmuka web pemesanan tiket kereta api untuk memberikan pengalaman booking yang lebih cepat, intuitif, dan seamless',
+    tags: ['Figma', 'UI/UX', 'Prototyping'],
+    longDesc: 'Proyek UI/UX untuk platform pemesanan tiket kereta api online. Fokus utama proyek ini adalah mengoptimalkan alur pencarian rute, pemilihan kursi (seat selection), hingga proses pembayaran agar lebih user-friendly, bersih, dan meminimalisir kesalahan pengguna saat bertransaksi',
+    figmaUrl: 'https://www.figma.com/design/DnU6rIFAn5Ltjc4J2w86cB/KAI-Tiket?node-id=0-1&t=WHu7EPALa1edsut1-1',
+    /*figmaProtoUrl: 'https://www.figma.com/proto/1uoVbYQ1rDrJxpYmR3blAX/MindFlow?node-id=152-277&t=MLSu266RIMXTWJrF-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=113%3A221',*/
+  },
 ];
 
 const pptProjects: AppProject[] = [
