@@ -234,7 +234,7 @@ const drawingProjects: DrawingProject[] = [
 
 const uiuxProjects: AppProject[] = [
   {
-    id: 'ux-ecommerce',
+    id: 'ux-reservasi',
     title: 'E-Commerce Mobile App',
     thumbnail: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?w=600&q=80',
     description: 'Desain UI/UX aplikasi mobile e-commerce dengan fokus pada user experience yang intuitif.',
@@ -246,12 +246,12 @@ const uiuxProjects: AppProject[] = [
   {
     id: 'ux-warmindo',
     title: 'UI/UX Reservasi Warmindo',
-    thumbnail: 'https://images.unsplash.com/photo-1741721816773-ff31d089c227?w=600&q=80',
+    thumbnail: 'https://i.imgur.com/HLZrfvf.png',
     description: 'Desain antarmuka aplikasi reservasi warmindo yang user-friendly.',
     tags: ['Figma', 'UI/UX', 'Prototyping'],
     longDesc: 'Desain UI/UX lengkap untuk aplikasi reservasi warmindo mulai dari user flow, wireframe, hingga prototype interaktif. Mengutamakan kemudahan penggunaan bagi semua kalangan.',
-    figmaUrl: 'https://www.figma.com/design/VjZkDrfsKEByi5lN0zHH2l/IMK-Pelengkap',
-    figmaProtoUrl: 'https://www.figma.com/proto/VjZkDrfsKEByi5lN0zHH2l/IMK-Pelengkap?node-id=1-2834',
+    figmaUrl: 'https://www.figma.com/design/VjZkDrfsKEByi5lN0zHH2l/IMK-Pelengkap?t=8xZzS1x2bwBlVQu0-1',
+    figmaProtoUrl: 'https://www.figma.com/proto/VjZkDrfsKEByi5lN0zHH2l/IMK-Pelengkap?node-id=1-2834&t=f1TNYfqfKcfDLUO4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
   },
 ];
 
