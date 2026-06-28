@@ -213,14 +213,14 @@ const drawingProjects: DrawingProject[] = [
   {
     id: 'd-sketsa1',
     title: 'Sketsa Karakter',
-    thumbnail: 'https://images.unsplash.com/photo-1542382257-80dedb725088?w=600&q=80',
+    thumbnail: 'https://i.imgur.com/DUz6pRs.jpeg',
     description: 'Kumpulan sketsa karakter tangan menggunakan pensil dan tinta.',
     images: [
-      'https://images.unsplash.com/photo-1542382257-80dedb725088?w=1200&q=80',
-      'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&q=80',
+      'https://i.imgur.com/LvHy2TC.png',
+      'https://i.imgur.com/KOWFhrM.png',
     ],
   },
-  {
+  /*{
     id: 'd-ilustrasi',
     title: 'Ilustrasi Alam',
     thumbnail: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80',
@@ -229,7 +229,7 @@ const drawingProjects: DrawingProject[] = [
       'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&q=80',
       'https://images.unsplash.com/photo-1542382257-80dedb725088?w=1200&q=80',
     ],
-  },
+  },*/
 ];
 
 const uiuxProjects: AppProject[] = [
