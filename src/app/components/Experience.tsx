@@ -199,13 +199,14 @@ const appProjects: AppProject[] = [
     figmaProtoUrl: 'https://kyparum.vercel.app/',
   },
   {
-    id: 'app-dashboard',
-    title: 'Restaurant Management Dashboard',
-    thumbnail: 'https://images.unsplash.com/photo-1759752394755-1241472b589d?w=600&q=80',
-    description: 'Dashboard manajemen restoran dengan visualisasi data yang komprehensif.',
-    tags: ['React', 'Chart.js', 'Node.js'],
-    longDesc: 'Dashboard admin untuk mengelola operasional restoran secara efisien. Fitur meliputi pemantauan pesanan real-time, analitik pendapatan, manajemen menu dan inventaris, serta laporan kinerja harian dan bulanan.',
-    githubUrl: 'https://github.com/username/restaurant-dashboard',
+    id: 'app-tripwell',
+    title: 'Capstone Tripwell',
+    thumbnail: 'https://i.imgur.com/iip1ZtP.png',
+    description: 'An inclusive tourism platform for West Bandung tailored for individuals with disabilities and the elderly, featuring a real-time AI model for sentiment analysis.',
+    tags: ['React', 'Supabase', 'Railway', 'Streamlit'],
+    longDesc: 'A specialized capstone project designed to promote inclusive tourism by showcasing accessible travel destinations in West Bandung for people with disabilities and the elderly. Built using React and Node.js, the platform offers data-driven insights through an interactive dashboard powered by Chart.js. A key innovation of this web application is its integrated machine learning model, which performs real-time sentiment analysis on user comments to measure customer satisfaction instantly, helping stakeholders continuously improve accessibility and service quality.',
+    githubUrl: 'https://github.com/hasbiajaa/TripWell',
+    figmaProtoUrl: 'https://tripwellcaps.vercel.app/',
   },
 ];
 
