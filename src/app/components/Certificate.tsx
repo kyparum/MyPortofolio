@@ -203,7 +203,7 @@ This certification validates my ability to design and implement professional, ac
       skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
       credentialUrl: 'https://drive.google.com/file/d/14u1hbO9vW7TeetOFADsbUWsFup3o3dca/view?usp=sharing',
     },
-    {
+    /*{
       id: '10',
       title: 'Interview Preparation for Scholarship',
       issuer: 'MySkill Short Class',
@@ -223,7 +223,7 @@ Course content included:
 This certification validates my ability to design and implement professional, accessible, and performant web interfaces. The course balanced theoretical knowledge with practical coding exercises and real-world project development.`,
       skills: ['Web Design', 'Responsive Design', 'HTML/CSS', 'Accessibility', 'UI Development'],
       credentialUrl: 'https://drive.google.com/file/d/14u1hbO9vW7TeetOFADsbUWsFup3o3dca/view?usp=sharing',
-    },
+    },*/
     {
       id: '11',
       title: 'Introduction to Frontend',
