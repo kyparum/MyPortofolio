@@ -1,48 +1,82 @@
-# Personal Portfolio Website
+<div align="center">
 
-This is a code bundle for Personal Portfolio Website. The original project is available at https://www.figma.com/design/qIe5Q5N8a9JC9T9o0E4tlv/Personal-Portfolio-Website.
+<h1 align="center">
+<img src="https://i.ibb.co.com/B5gGKjzm/image.png" width="32" valign="middle"> My Portfolio Website
+</h1>
 
-## Running the code
+A modern and responsive personal portfolio website built to showcase my projects, technical skills, and professional journey.
 
-Install dependencies (pnpm is recommended, since `package.json` pins versions via `pnpm.overrides`; `npm i` also works):
+<a href="https://ibb.co/pxpCNDc"><img src="https://i.ibb.co.com/1G1JQWMF/image.png" alt="icon" border="0"></a>
+
+**🚀 Drop by Here:** https://kyparum.vercel.app/
+
+</div>
+
+---
+
+## ✨ About
+
+This project is my personal portfolio website, designed to present my software development journey, featured projects, technical skills, certifications, and contact information in a clean and interactive interface.
+
+Unlike a traditional development workflow, this website was built using a **Vibe Coding** approach—leveraging AI-assisted development for brainstorming, UI generation, code scaffolding, debugging, and iterative improvements. This allowed me to rapidly prototype ideas while maintaining clean architecture and a polished user experience.
+
+## 🚀 Features
+
+- 🎨 Modern and responsive UI
+- 📱 Mobile-friendly layout
+- 🌙 Smooth animations and transitions
+- 💼 Featured projects section
+- 🛠 Skills & technology stack
+- 📄 Resume download
+- 📊 GitHub statistics integration
+- ⏱ WakaTime coding activity
+- 📬 Contact section
+- ⚡ Fast performance with optimized assets
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+
+### Backend / Services
+
+- WakaTime API
+
+### Deployment
+
+- Vercel
+
+---
+
+## Quick Start
 
 ```bash
-pnpm install
-```
+# Clone repository
+git clone https://github.com/kyparum/MyPortofolio.git
+cd MyPortofolio
 
-Start the development server:
-
-```bash
-pnpm dev
-```
-
-The WakaTime/GitHub dashboard backend (`/api/*`) only runs after deploying to Vercel — see [`docs/DEPLOY.md`](./docs/DEPLOY.md). Locally, the dashboard falls back to demo data.
-
-## Project structure
+# Run development server
+npm install
+npm run dev
 
 ```
-.
-├── api/                  # Vercel serverless functions (WakaTime & GitHub proxies)
-├── docs/                 # All project documentation
-│   └── images-guide/     # Setup guide & syntax reference for src/assets/images
-├── public/               # Static files served as-is (favicon, etc.)
-├── src/
-│   ├── app/
-│   │   ├── App.tsx           # Root component
-│   │   └── components/       # Page sections + shadcn/ui components (ui/)
-│   ├── assets/images/        # Local images, grouped by purpose (profile, logos, icons, ...)
-│   ├── styles/                # Tailwind/theme CSS
-│   └── main.tsx               # App entry point
-├── index.html
-├── vite.config.ts
-└── package.json
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+VITE_GITHUB_USERNAME=your_github_username
+VITE_WAKATIME_API_KEY=your_wakatime_api_key
 ```
 
-## Documentation
-
-- [`docs/DEPLOY.md`](./docs/DEPLOY.md) — Deploying the WakaTime/GitHub backend to Vercel
-- [`docs/WAKATIME.md`](./docs/WAKATIME.md) — WakaTime dashboard integration overview
-- [`docs/ATTRIBUTIONS.md`](./docs/ATTRIBUTIONS.md) — Third-party licenses/credits
-- [`docs/GUIDELINES.md`](./docs/GUIDELINES.md) — Figma Make AI generation guidelines
-- [`docs/images-guide/`](./docs/images-guide) — How to add/replace local images
-- [`api/README.md`](./api/README.md) — Backend API reference
+| Variable | Description |
+|----------|-------------|
+| `VITE_GITHUB_USERNAME` | Your GitHub username used to fetch GitHub profile information. |
+| `VITE_WAKATIME_API_KEY` | Your WakaTime API Key used to display coding activity statistics. |
