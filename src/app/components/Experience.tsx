@@ -208,6 +208,15 @@ const appProjects: AppProject[] = [
     githubUrl: 'https://github.com/hasbiajaa/TripWell',
     figmaProtoUrl: 'https://tripwellcaps.vercel.app/',
   },
+  {
+    id: 'app-modelaitripwell',
+    title: 'Model AI Tripwell',
+    thumbnail: 'https://i.imgur.com/wL8PdqN.png',
+    description: 'The production-ready deployment of the Tripwell real-time sentiment analysis AI model, hosted on Railway to power the inclusive tourism platform dashboard.',
+    tags: ['Python', 'Machine Learning', 'Railway'],
+    longDesc: 'This project focuses on the end-to-end deployment of the machine learning model that powers the Tripwell inclusive tourism ecosystem. Built as a dedicated backend service hosted on Railway, this deployment exposes a high-performance API that processes user feedback from the West Bandung tourism dashboard in real-time. It handles tokenization, preprocessing, and inference to deliver instant sentiment analysis. By isolating the AI model into its own scalable production environment on Railway, the system ensures seamless integration, low-latency analysis, and continuous tracking of customer satisfaction for users with disabilities and the elderly.',
+    githubUrl: 'https://github.com/kyparum/tripwell',
+  },
 ];
 
 const drawingProjects: DrawingProject[] = [
