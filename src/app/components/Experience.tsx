@@ -189,14 +189,14 @@ const posterProjects: PosterProject[] = [
 
 const appProjects: AppProject[] = [
   {
-    id: 'app-warmindo',
-    title: 'Reservasi Warmindo',
-    thumbnail: 'https://images.unsplash.com/photo-1741721816773-ff31d089c227?w=600&q=80',
-    description: 'Sistem reservasi digital untuk warmindo dengan antarmuka yang mudah digunakan.',
-    tags: ['React', 'Supabase', 'Tailwind CSS'],
-    longDesc: 'Aplikasi web untuk reservasi meja di warmindo secara digital. Pengguna dapat memilih meja, waktu kunjungan, dan memesan menu favorit sebelum datang. Sistem ini dilengkapi dengan notifikasi konfirmasi dan manajemen pesanan untuk pemilik warung.',
-    githubUrl: 'https://github.com/username/warmindo-reservasi',
-    figmaProtoUrl: 'https://www.figma.com/proto/VjZkDrfsKEByi5lN0zHH2l/IMK-Pelengkap?node-id=1-2834',
+    id: 'app-porto',
+    title: 'My Portofolio Website',
+    thumbnail: 'https://i.imgur.com/NbOlhSG.png',
+    description: 'A modern personal portfolio website showcasing projects, skills, and professional experience..',
+    tags: ['React', 'TypeScript', 'API Wakatime'],
+    longDesc: 'A responsive personal portfolio website designed to showcase my projects, technical skills, and professional journey. This project was developed using a vibe coding approach, combining AI-assisted development with rapid prototyping to accelerate the design and implementation process. Built with Typescript, the website features a clean user interface, smooth animations, responsive layouts, and optimized performance, providing visitors with an engaging experience across desktop and mobile devices.',
+    githubUrl: 'https://github.com/kyparum/MyPortofolio',
+    figmaProtoUrl: 'https://kyparum.vercel.app/',
   },
   {
     id: 'app-dashboard',
