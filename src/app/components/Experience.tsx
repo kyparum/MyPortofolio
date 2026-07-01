@@ -287,13 +287,13 @@ const uiuxProjects: AppProject[] = [
 
 const pptProjects: AppProject[] = [
   {
-    id: 'ppt-business',
-    title: 'Business Presentation Template',
-    thumbnail: 'https://images.unsplash.com/photo-1666148610265-5e64d889574b?w=600&q=80',
-    description: 'Template presentasi bisnis profesional dengan 50+ variasi slide.',
-    tags: ['Canva', 'Presentation', 'Business'],
-    longDesc: 'Template presentasi bisnis yang komprehensif dengan lebih dari 50 variasi slide. Mencakup slide cover, isi, grafik, timeline, profil tim, dan penutup. Mudah dikustomisasi sesuai branding perusahaan.',
-    figmaProtoUrl: 'https://www.canva.com/design/example-presentation/view',
+    id: 'ppt-game',
+    title: 'Game Master Weekly',
+    thumbnail: 'https://i.imgur.com/EdMkC8Z.png',
+    description: 'The presentation used during my role as a Game Master in Dicoding\'s Weekly Consultation sessions.',
+    tags: ['Canva', 'Presentation', 'game'],
+    longDesc: 'The actual presentation I designed and utilized while serving as a Game Master for Dicoding\'s Weekly Consultation. It features an engaging layout tailored to guide the audience, host interactive activities, and manage the overall flow of the weekly session.',
+    figmaProtoUrl: 'https://canva.link/5n4mt4tcgs7agvf',
   },
   {
     id: 'ppt-academic',
